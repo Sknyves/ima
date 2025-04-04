@@ -1,0 +1,13 @@
+
+.scrolling-wrapper {
+    animation: scrollUp 60s linear infinite;
+  }
+
+  @keyframes scrollUp {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
